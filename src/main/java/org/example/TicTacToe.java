@@ -13,7 +13,7 @@ public class TicTacToe {
     //scanner.nextLine() returns the String of the user's input until they press enter
     //scanner.nextInt() returns the int of the user's next number input. The code will crash if the user does not input a number
     //scanner.nextDouble() and scanner.nextBoolean() work similarly, returning their respective types
-    private Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     //The main method is where your program starts
     public static void main(String[] args) {
